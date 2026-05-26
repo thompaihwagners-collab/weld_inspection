@@ -1,0 +1,39 @@
+{
+  "accuracy": 1.0,
+  "detected": 301,
+  "missed": 0,
+  "total": 301,
+  "avg_confidence": 0.9835,
+  "per_class": {
+    "Good": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 59
+    },
+    "ColdWeld": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 64
+    },
+    "Overburn": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 53
+    },
+    "Crack": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 54
+    },
+    "Shrinkage": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 71
+    }
+  }
+}

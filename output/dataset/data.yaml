@@ -1,0 +1,11 @@
+names:
+- good
+- cold_weld
+- overburn
+- crack
+- shrinkage
+nc: 5
+path: F:\ai-tools\weld_inspection\output\dataset
+test: F:\ai-tools\weld_inspection\output\dataset\test\images
+train: F:\ai-tools\weld_inspection\output\dataset\train\images
+val: F:\ai-tools\weld_inspection\output\dataset\val\images
