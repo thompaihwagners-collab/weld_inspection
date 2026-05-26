@@ -61,8 +61,13 @@ st.markdown("""
 # ============= 加载模型 =============
 @st.cache_resource
 def load_model():
+    # 优先加载本地训练好的模型
     if MODEL_PATH.exists():
         return YOLO(str(MODEL_PATH))
+    # Cloud部署时加载仓库里的模型文件
+    BEST_PT_PATH = Path(__file__).parent / 'best.pt'
+    if BEST_PT_PATH.exists():
+        return YOLO(str(BEST_PT_PATH))
     return None
 
 model = load_model()
