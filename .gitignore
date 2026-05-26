@@ -1,0 +1,7 @@
+# Streamlit Cloud - ignore large data files
+output/dataset/
+output/runs/weld_detection/weights/
+output/figures/
+output/runs/weld_detection/events*
+output/runs/weld_detection/train*
+*.cache
